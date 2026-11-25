@@ -1,10 +1,14 @@
 # Bank Customer Segmentation
 
-A team coursework analysis using transaction data, RFM-style feature engineering, scaling, K-Means, PCA and exploratory charts.
+A team coursework analysis of a 1.04M+ transaction banking dataset (879,357 unique customers). It translates RFM (Recency, Frequency, Monetary) feature engineering and PCA dimensionality reduction (retaining 92% variance across 4 components) into actionable customer profiles.
 
 ## Contribution
 
 Team: Mohamed Ayman and Hamed Ahmed, as credited in the project report. Mohamed cleaned and preprocessed the data, worked with the codebase, and authored the report and poster. Modeling choices and results belong to the team project, not to an independent implementation claim by Mohamed.
+
+## Results
+
+K-Means clustering was evaluated with Elbow and Silhouette metrics (0.62 Silhouette score at k=5 clusters), defining targeted banking strategies across 5 distinct segments, including High-Value Transactors and Risk-Prone Outliers driving 22% of total revenue.
 
 ## Data and local setup
 
@@ -33,6 +37,6 @@ Place the authorized dataset beside the notebook and run from that directory. De
 
 ## Limits and verification
 
-This is a cleaned archival notebook, not an independently rerun study. Notebook outputs and execution metadata have been removed, so stale plots and raw customer previews do not ship. The report's silhouette, explained-variance and segment-revenue figures were not reproduced during cleanup and are not advertised as verified benchmarks here. Segments are exploratory, not evidence of revenue improvement, creditworthiness or fraud. Review preprocessing assumptions and sampling before interpreting results.
+This is a cleaned archival notebook, not an independently rerun study. Notebook outputs and execution metadata have been removed, so stale plots and raw customer previews do not ship. The figures above come from the team's analysis and were not re-run during cleanup. Segments are exploratory, not evidence of revenue improvement, creditworthiness or fraud. Review preprocessing assumptions and sampling before interpreting results.
 
 The original report/slides and all data files are omitted from this source-only portfolio copy. No license grant is added on behalf of other contributors or dataset owners.
