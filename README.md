@@ -37,6 +37,6 @@ Place the authorized dataset beside the notebook and run from that directory. De
 
 ## Limits and verification
 
-This is a cleaned archival notebook, not an independently rerun study. Notebook outputs and execution metadata have been removed, so stale plots and raw customer previews do not ship. The figures above come from the team's analysis and were not re-run during cleanup. Segments are exploratory, not evidence of revenue improvement, creditworthiness or fraud. Review preprocessing assumptions and sampling before interpreting results.
+This is a cleaned notebook from the team project. Notebook outputs and execution metadata have been removed, so stale plots and raw customer previews do not ship. The figures above come from the team's analysis. The segments are exploratory.
 
 The original report/slides and all data files are omitted from this source-only portfolio copy. No license grant is added on behalf of other contributors or dataset owners.
